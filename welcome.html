@@ -1,0 +1,42 @@
+<html>
+    <body bgcolor="pink">
+        <form action="http://localhost:3000/viewall">
+            <h1>Welcome To Employee DataBase</h1><br/>
+            <p>Press the below button to View All Records</p><br/>
+            <button type="submit">View All</button>
+        </form>
+
+        <form action="http://localhost:3000/viewid">
+            <p>........................................................................................</p>
+            Enter ID : <input type="text" name="id"/>
+            <p>Press the below button to View Records by ID</p><br/>
+            <button type="submit">View by ID</button>
+        </form>
+
+        <form action="http://localhost:3000/add" method="post">
+            <p>........................................................................................</p>
+            Enter ID : <input type="text" name="id"/>
+            Enter NAME : <input type="text" name="name"/>
+            Enter SALARY : <input type="text" name="salary"/>
+            <p>Press the below button to Add a Records</p><br/>
+            <button type="submit">Add</button>
+        </form>
+
+        <form action="http://localhost:3000/update" method="post">
+            <p>........................................................................................</p>
+            Enter ID : <input type="text" name="id"/>
+            Enter NAME : <input type="text" name="name"/>
+            Enter SALARY : <input type="text" name="salary"/>
+            <p>Press the below button to Update a Records</p><br/>
+            <button type="submit">Update</button>
+        </form>
+
+        <form action="http://localhost:3000/delete" method="post">
+            <p>........................................................................................</p>
+            Enter ID : <input type="text" name="id"/>
+            <p>Press the below button to Delete a Records</p><br/>
+            <button type="submit">Delete</button>
+            <p>........................................................................................</p>
+        </form>
+    </body>
+</html>
